@@ -15,7 +15,7 @@ function nowServing(deliLine) {
     }
 }
 
-function currentLine(line) {
+function currentLine(deliLine) {
   if (line <= 0) {
     return "The line is currently empty."
   } else {

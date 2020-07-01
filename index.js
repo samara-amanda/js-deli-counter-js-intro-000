@@ -10,7 +10,7 @@ function nowServing(deliLine) {
     if (deliLine <= 0) {
       return "There is nobody waiting to be served!"
     } else {
-      deliLine.splice(1, 2)
+      deliLine.splice(0, 1)
       return `Currently serving ${deliLine}.`
 
     }

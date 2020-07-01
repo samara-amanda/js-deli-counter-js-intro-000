@@ -7,7 +7,6 @@ function takeANumber(katzDeli, name) {
 
 
 function nowServing(deliLine) {
-  let sentence = `Currently serving ${deliLine}.`
     if (deliLine <= 1) {
       return "There is nobody waiting to be served!"
     } else {

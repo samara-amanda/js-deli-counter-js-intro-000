@@ -12,7 +12,7 @@ function nowServing(deliLine) {
       return "There is nobody waiting to be served!"
     } else {
       return deliLine.pop()
-      return `Currently serving ${deliLine[0]}.`
+      return `Currently serving ${deliLine}.`
 
     }
 }
